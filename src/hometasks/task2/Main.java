@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.print("Ââåäèòå òèï äîêóìåíòà (xml/txt/doc) - ");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ð¸Ð¿ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð° (xml/txt/doc) - ");
 
         String typeDoc = new Scanner(System.in).next().toLowerCase();
 
@@ -31,7 +31,7 @@ public class Main {
                 docHandler.change();
                 docHandler.save();
             }
-            default -> System.out.println("Ââåäåí íåêîððåêòíûé ôîðìàò. Ïîâòîðèòå.");
+            default -> System.out.println("Ð’Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹Ð¹ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚. ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ.");
         }
 
     }
