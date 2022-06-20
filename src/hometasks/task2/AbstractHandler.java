@@ -16,22 +16,22 @@ class XMLHandler extends AbstractHandler {
 
     @Override
     void create() {
-        System.out.println("XML документ создан.");
+        System.out.println("XML РґРѕРєСѓРјРµРЅС‚ СЃРѕР·РґР°РЅ.");
     }
 
     @Override
     void open() {
-        System.out.println("XML документ открыт.");
+        System.out.println("XML РґРѕРєСѓРјРµРЅС‚ РѕС‚РєСЂС‹С‚.");
     }
 
     @Override
     void change() {
-        System.out.println("XML документ изменен.");
+        System.out.println("XML РґРѕРєСѓРјРµРЅС‚ РёР·РјРµРЅРµРЅ.");
     }
 
     @Override
     void save() {
-        System.out.println("XML документ сохранен.");
+        System.out.println("XML РґРѕРєСѓРјРµРЅС‚ СЃРѕС…СЂР°РЅРµРЅ.");
     }
 }
 
@@ -39,22 +39,22 @@ class TXTHandler extends AbstractHandler {
 
     @Override
     void create() {
-        System.out.println("TXT документ создан.");
+        System.out.println("TXT РґРѕРєСѓРјРµРЅС‚ СЃРѕР·РґР°РЅ.");
     }
 
     @Override
     void open() {
-        System.out.println("TXT документ открыт.");
+        System.out.println("TXT РґРѕРєСѓРјРµРЅС‚ РѕС‚РєСЂС‹С‚.");
     }
 
     @Override
     void change() {
-        System.out.println("TXT документ изменен.");
+        System.out.println("TXT РґРѕРєСѓРјРµРЅС‚ РёР·РјРµРЅРµРЅ.");
     }
 
     @Override
     void save() {
-        System.out.println("TXT документ сохранен.");
+        System.out.println("TXT РґРѕРєСѓРјРµРЅС‚ СЃРѕС…СЂР°РЅРµРЅ.");
     }
 }
 
@@ -63,22 +63,22 @@ class DOCHandle extends AbstractHandler {
 
     @Override
     void create() {
-        System.out.println("DOC документ создан.");
+        System.out.println("DOC РґРѕРєСѓРјРµРЅС‚ СЃРѕР·РґР°РЅ.");
     }
 
     @Override
     void open() {
-        System.out.println("DOC документ открыт.");
+        System.out.println("DOC РґРѕРєСѓРјРµРЅС‚ РѕС‚РєСЂС‹С‚.");
     }
 
     @Override
     void change() {
-        System.out.println("DOC документ изменен.");
+        System.out.println("DOC РґРѕРєСѓРјРµРЅС‚ РёР·РјРµРЅРµРЅ.");
     }
 
     @Override
     void save() {
-        System.out.println("DOC документ сохранен.");
+        System.out.println("DOC РґРѕРєСѓРјРµРЅС‚ СЃРѕС…СЂР°РЅРµРЅ.");
     }
 }
 
